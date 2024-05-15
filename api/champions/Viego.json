@@ -1,0 +1,141 @@
+{
+    "publish_details": {
+        "locale": "pt-br"
+    },
+    "uid": "bltf41aefcf5efab168",
+    "url": "/champions/viego/",
+    "data_dragon_id": "Viego",
+    "data_dragon_json": "{\"id\":\"Viego\",\"key\":\"234\",\"name\":\"Viego\",\"title\":\"O Rei Destruído\",\"image\":{\"full\":\"Viego.png\",\"sprite\":\"champion4.png\",\"group\":\"champion\",\"x\":384,\"y\":96,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"234000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"234001\",\"num\":1,\"name\":\"Viego Fera Lunar\",\"chromas\":true},{\"id\":\"234010\",\"num\":10,\"name\":\"Viego Dissonância da Pentakill\",\"chromas\":false},{\"id\":\"234019\",\"num\":19,\"name\":\"Viego EDG\",\"chromas\":false},{\"id\":\"234021\",\"num\":21,\"name\":\"Rei Viego\",\"chromas\":false},{\"id\":\"234030\",\"num\":30,\"name\":\"Viego Soul Fighter\",\"chromas\":false}],\"lore\":\"Outrora regente de um reino perdido, Viego morreu há mais de um milênio, quando uma tentativa de trazer sua esposa de volta à vida culminou em uma catástrofe mágica conhecida como \\\"a Ruína\\\". Transformado em um poderoso espectro morto-vivo, e sempre sendo torturado pela paixão obsessiva que sente por sua rainha morta há séculos, Viego agora é conhecido como o Rei Destruído. Hoje, ele controla os Tormentos enquanto assola Runeterra em busca de qualquer coisa que possa trazê-la de volta, destruindo tudo que estiver em seu caminho conforme a Névoa Negra emana de seu cruel coração partido.\",\"blurb\":\"Outrora regente de um reino perdido, Viego morreu há mais de um milênio, quando uma tentativa de trazer sua esposa de volta à vida culminou em uma catástrofe mágica conhecida como \\\"a Ruína\\\". Transformado em um poderoso espectro morto-vivo, e sempre...\",\"allytips\":[],\"enemytips\":[],\"tags\":[\"Assassin\",\"Fighter\"],\"partype\":\"Nenhum\",\"info\":{\"attack\":6,\"defense\":4,\"magic\":2,\"difficulty\":5},\"stats\":{\"hp\":630,\"hpperlevel\":109,\"mp\":10000,\"mpperlevel\":0,\"movespeed\":345,\"armor\":34,\"armorperlevel\":5.2,\"spellblock\":32,\"spellblockperlevel\":2.05,\"attackrange\":200,\"hpregen\":7,\"hpregenperlevel\":0.7,\"mpregen\":0,\"mpregenperlevel\":0,\"crit\":0,\"critperlevel\":0,\"attackdamage\":57,\"attackdamageperlevel\":3.5,\"attackspeedperlevel\":2.5,\"attackspeed\":0.658},\"spells\":[{\"id\":\"ViegoQ\",\"name\":\"Espada do Rei Destruído\",\"description\":\"A lâmina espectral de Viego causa uma porcentagem da Vida atual do alvo como dano adicional <OnHit>ao contato</OnHit> de forma passiva e atinge duas vezes os inimigos recentemente afetados por uma Habilidade, roubando Vida.<br><br>Viego pode ativar essa Habilidade para golpear, perfurando inimigos à frente.\",\"tooltip\":\" <spellPassive>Passivo:</spellPassive> os Ataques de Viego causam <physicalDamage>{{ totalpercenthealthonhit }} da Vida atual como Dano Físico</physicalDamage> adicional. O primeiro Ataque contra um inimigo que tiver sofrido dano de uma Habilidade recentemente atinge o alvo uma segunda vez, causando <physicalDamage>{{ secondattackdamage }} de Dano Físico</physicalDamage> e restaurando Vida em um valor equivalente a <healing>{{ healmodvschamps*100% }}% do dano causado</healing>. Esses efeitos são mantidos durante <keywordMajor>Possessão</keywordMajor>.<br /><br /><spellActive>Ativo: </spellActive>Viego golpeia à frente, causando <physicalDamage>{{ totaldamage }} de Dano Físico</physicalDamage>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Dano\",\"% de Vida atual\",\"Vida atual como dano mínimo\",\"Tempo de Recarga\"],\"effect\":[\"{{ damage }} -> {{ damageNL }}\",\"{{ percenthealthonhit }}% -> {{ percenthealthonhitNL }}%\",\"{{ mindamageonhit }} -> {{ mindamageonhitNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":5,\"cooldown\":[5,4.5,4,3.5,3],\"cooldownBurn\":\"5/4.5/4/3.5/3\",\"cost\":[0,0,0,0,0],\"costBurn\":\"0\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\"Sem custo\",\"maxammo\":\"-1\",\"range\":[600,600,600,600,600],\"rangeBurn\":\"600\",\"image\":{\"full\":\"ViegoQ.png\",\"sprite\":\"spell15.png\",\"group\":\"spell\",\"x\":0,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"Sem custo\"},{\"id\":\"ViegoW\",\"name\":\"Posse Espectral\",\"description\":\"Viego carrega antes de avançar, lançando uma esfera de Névoa Negra concentrada que atordoa o primeiro inimigo atingido.\",\"tooltip\":\"<charge>Início do carregamento:</charge> Viego começa a acumular Névoa, sofrendo {{ selfslowpercent*100 }}% de <status>Lentidão</status>.<br /><br /><release>Liberar:</release> Viego avança e arremessa a Névoa acumulada. Causa <magicDamage>{{ totaldamage }} de Dano Mágico</magicDamage> ao primeiro inimigo atingido e o <status>Atordoa</status> por {{ stunduration }}s -{{ maxstuntt }}s com base no tempo de carregamento.<br />{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Dano\"],\"effect\":[\"{{ damage }} -> {{ damageNL }}\"]},\"maxrank\":5,\"cooldown\":[8,8,8,8,8],\"cooldownBurn\":\"8\",\"cost\":[0,0,0,0,0],\"costBurn\":\"0\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\"Sem custo\",\"maxammo\":\"-1\",\"range\":[400,400,400,400,400],\"rangeBurn\":\"400\",\"image\":{\"full\":\"ViegoW.png\",\"sprite\":\"spell15.png\",\"group\":\"spell\",\"x\":48,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"Sem custo\"},{\"id\":\"ViegoE\",\"name\":\"Domínio Atormentado\",\"description\":\"Viego ordena que a Névoa Negra assombre e cerque uma porção de terreno. Ele pode se esconder na Névoa como um Espectro, recebendo Camuflagem, Velocidade de Movimento e Velocidade de Ataque.\",\"tooltip\":\"Viego envia um espectro para assombrar o primeiro terreno atingido, envolvendo-o em Névoa por {{ mistduration }}s. Viego recebe <keywordStealth>Camuflagem</keywordStealth>, <speed>{{ totalmovespeed }} de Velocidade de Movimento</speed> e <attackSpeed>{{ attackspeed*100 }}% de Velocidade de Ataque</attackSpeed> enquanto estiver dentro da Névoa.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Velocidade de Movimento\",\"Velocidade de Ataque\",\"Tempo de Recarga\"],\"effect\":[\"{{ movespeed*100.000000 }}% -> {{ movespeednl*100.000000 }}%\",\"{{ attackspeed*100.000000 }}% -> {{ attackspeednl*100.000000 }}%\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":5,\"cooldown\":[14,12,10,8,6],\"cooldownBurn\":\"14/12/10/8/6\",\"cost\":[0,0,0,0,0],\"costBurn\":\"0\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\"Sem custo\",\"maxammo\":\"-1\",\"range\":[750,750,750,750,750],\"rangeBurn\":\"750\",\"image\":{\"full\":\"ViegoE.png\",\"sprite\":\"spell15.png\",\"group\":\"spell\",\"x\":96,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"Sem custo\"},{\"id\":\"ViegoR\",\"name\":\"Destruidor de Corações\",\"description\":\"Viego teleporta-se para um local próximo e executa um Campeão inimigo ao chegar, atravessando seu coração e liberando uma onda de choque destrutiva que empurra os inimigos.\",\"tooltip\":\"Viego descarta quaisquer almas que esteja <keywordMajor>Possuindo</keywordMajor> no momento e se teleporta. Ao chegar, ele Ataca o Campeão inimigo com a porcentagem de Vida mais baixa, causando {{ slowpercent*100 }}% de <status>Lentidão</status> brevemente e <physicalDamage>{{ totaldamage }} + {{ totalpercenthealth }}% da Vida perdida como Dano Físico</physicalDamage>. Outros inimigos próximos são <status>Empurrados</status> e sofrem <physicalDamage>{{ totaldamage }} de Dano Físico</physicalDamage>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Dano por Vida perdida\",\"Tempo de Recarga\"],\"effect\":[\"{{ maxhealthdamage }}% -> {{ maxhealthdamageNL }}%\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":3,\"cooldown\":[120,100,80],\"cooldownBurn\":\"120/100/80\",\"cost\":[0,0,0],\"costBurn\":\"0\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\"Sem custo\",\"maxammo\":\"-1\",\"range\":[500,500,500],\"rangeBurn\":\"500\",\"image\":{\"full\":\"ViegoR.png\",\"sprite\":\"spell15.png\",\"group\":\"spell\",\"x\":144,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"Sem custo\"}],\"passive\":{\"name\":\"Dominação Monárquica\",\"description\":\"Inimigos derrotados por Viego se tornam Espectros. Ao atacá-los, Viego toma controle do corpo do inimigo morto temporariamente, curando-se em um percentual da Vida máxima do alvo e ganhando acesso a seus itens e habilidades básicas. Ele substitui a ultimate da vítima por uma conjuração gratuita de sua própria ultimate.\",\"image\":{\"full\":\"Viego_Passive.png\",\"sprite\":\"passive4.png\",\"group\":\"passive\",\"x\":384,\"y\":96,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "Outrora regente de um reino perdido, Viego morreu há mais de um milênio, quando uma tentativa de trazer sua esposa de volta à vida culminou em uma catástrofe mágica conhecida como \"a Ruína\". Transformado em um poderoso espectro morto-vivo, e sempre...",
+    "lore": "Outrora regente de um reino perdido, Viego morreu há mais de um milênio, quando uma tentativa de trazer sua esposa de volta à vida culminou em uma catástrofe mágica conhecida como \"a Ruína\". Transformado em um poderoso espectro morto-vivo, e sempre sendo torturado pela paixão obsessiva que sente por sua rainha morta há séculos, Viego agora é conhecido como o Rei Destruído. Hoje, ele controla os Tormentos enquanto assola Runeterra em busca de qualquer coisa que possa trazê-la de volta, destruindo tudo que estiver em seu caminho conforme a Névoa Negra emana de seu cruel coração partido.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Viego.png",
+    "champion_name": "Viego",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_0.jpg",
+    "champion_title": "O Rei Destruído",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Assassin",
+        "Fighter"
+    ],
+    "links": [
+        {
+            "href": "https://u.gg/lol/champions/viego/",
+            "title": "U.GG"
+        }
+    ],
+    "champion": {
+        "modular_blocks": [
+            {
+                "promo_module": {
+                    "promo_module_selection": [
+                        {
+                            "uid": "bltf28897d549025b64",
+                            "promo_title": "Ruined King: A League of Legends Story",
+                            "subtitle": "",
+                            "description": "",
+                            "hide_title": true,
+                            "include_description": false,
+                            "promo_reference": [
+                                {
+                                    "__typename": "Contentstack_articles",
+                                    "uid": "blt68d9ac802b47aa92",
+                                    "title": "Uma História de League of Legends",
+                                    "date": "2021-11-16T16:30:00.000Z",
+                                    "description": "Assista ao trailer de lançamento de Ruined King, um RPG de combate em turnos no universo do LoL.",
+                                    "article_type": "External Link",
+                                    "url": {
+                                        "url": "/news/riot-games/uma-historia-de-league-of-legends/"
+                                    },
+                                    "external_link": "https://ruinedking.com/?utm_medium=promo_module&utm_source=lolweb&utm_campaign=forge_rk&utm_content=champpage_promo02",
+                                    "youtube_link": "",
+                                    "banner": {
+                                        "url": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltfa02e3a6f97ea1f5/618f753c4a9f386e6e5946e7/Ruined_King_Art.jpg",
+                                        "uid": "bltfa02e3a6f97ea1f5"
+                                    },
+                                    "category": [
+                                        {
+                                            "title": "Riot Games"
+                                        }
+                                    ],
+                                    "author": [],
+                                    "article_tags": []
+                                }
+                            ],
+                            "promo_full_width_banner": {
+                                "url": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt645438f3c7851781/6192d95cd380f814d61f0ab7/RKPromoImage.jpg",
+                                "uid": "blt645438f3c7851781"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_0.jpg"
+        },
+        {
+            "name": "Viego Fera Lunar",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_1.jpg"
+        },
+        {
+            "name": "Viego Dissonância da Pentakill",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_10.jpg"
+        },
+        {
+            "name": "Viego EDG",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_19.jpg"
+        },
+        {
+            "name": "Rei Viego",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_21.jpg"
+        },
+        {
+            "name": "Viego Soul Fighter",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_30.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Inimigos derrotados por Viego se tornam Espectros. Ao atacá-los, Viego toma controle do corpo do inimigo morto temporariamente, curando-se em um percentual da Vida máxima do alvo e ganhando acesso a seus itens e habilidades básicas. Ele substitui a ultimate da vítima por uma conjuração gratuita de sua própria ultimate.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/14.8.1/img/passive/Viego_Passive.png",
+        "champion_passive_name": "Dominação Monárquica",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0234/ability_0234_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0234/ability_0234_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0234/ability_0234_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "A lâmina espectral de Viego causa uma porcentagem da Vida atual do alvo como dano adicional ao contato de forma passiva e atinge duas vezes os inimigos recentemente afetados por uma Habilidade, roubando Vida.\n\nViego pode ativar essa Habilidade para golpear, perfurando inimigos à frente.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/14.8.1/img/spell/ViegoQ.png",
+        "champion_q_name": "Espada do Rei Destruído",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0234/ability_0234_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0234/ability_0234_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0234/ability_0234_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Viego carrega antes de avançar, lançando uma esfera de Névoa Negra concentrada que atordoa o primeiro inimigo atingido.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/14.8.1/img/spell/ViegoW.png",
+        "champion_w_name": "Posse Espectral",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0234/ability_0234_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0234/ability_0234_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0234/ability_0234_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Viego ordena que a Névoa Negra assombre e cerque uma porção de terreno. Ele pode se esconder na Névoa como um Espectro, recebendo Camuflagem, Velocidade de Movimento e Velocidade de Ataque.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/14.8.1/img/spell/ViegoE.png",
+        "champion_e_name": "Domínio Atormentado",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0234/ability_0234_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0234/ability_0234_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0234/ability_0234_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Viego teleporta-se para um local próximo e executa um Campeão inimigo ao chegar, atravessando seu coração e liberando uma onda de choque destrutiva que empurra os inimigos.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/14.8.1/img/spell/ViegoR.png",
+        "champion_r_name": "Destruidor de Corações",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0234/ability_0234_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0234/ability_0234_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0234/ability_0234_R1.webm"
+    },
+    "related_champions": []
+}

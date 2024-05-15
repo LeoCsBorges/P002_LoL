@@ -1,0 +1,95 @@
+{
+    "publish_details": {
+        "locale": "pt-br"
+    },
+    "uid": "blt5899b7b7767f7d7b",
+    "url": "/champions/zeri/",
+    "data_dragon_id": "Zeri",
+    "data_dragon_json": "{\"id\":\"Zeri\",\"key\":\"221\",\"name\":\"Zeri\",\"title\":\"A Faísca de Zaun\",\"image\":{\"full\":\"Zeri.png\",\"sprite\":\"champion5.png\",\"group\":\"champion\",\"x\":96,\"y\":48,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"221000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"221001\",\"num\":1,\"name\":\"Zeri Rosa Definhada\",\"chromas\":true},{\"id\":\"221010\",\"num\":10,\"name\":\"Zeri Canção do Oceano\",\"chromas\":true},{\"id\":\"221019\",\"num\":19,\"name\":\"Zeri Jornada Imortal\",\"chromas\":true}],\"lore\":\"Uma jovem obstinada e vivaz da classe operária de Zaun, Zeri canaliza magia elétrica para carregar a si mesma e a uma arma personalizada. O poder volátil espelha o que ela sente, as centelhas refletindo o estilo de vida ultrarrápido dela. Profundamente compassiva para com os outros, Zeri leva o amor da família e do lar dela consigo a todas as lutas. Embora as tentativas de ajudar saiam pela culatra às vezes, Zeri acredita piamente em uma verdade: lute pela sua comunidade, e ela lutará com você.\",\"blurb\":\"Uma jovem obstinada e vivaz da classe operária de Zaun, Zeri canaliza magia elétrica para carregar a si mesma e a uma arma personalizada. O poder volátil espelha o que ela sente, as centelhas refletindo o estilo de vida ultrarrápido dela. Profundamente...\",\"allytips\":[],\"enemytips\":[],\"tags\":[\"Marksman\"],\"partype\":\"Mana\",\"info\":{\"attack\":8,\"defense\":5,\"magic\":3,\"difficulty\":6},\"stats\":{\"hp\":600,\"hpperlevel\":110,\"mp\":250,\"mpperlevel\":45,\"movespeed\":330,\"armor\":24,\"armorperlevel\":4.2,\"spellblock\":30,\"spellblockperlevel\":1.3,\"attackrange\":500,\"hpregen\":3.25,\"hpregenperlevel\":0.7,\"mpregen\":6,\"mpregenperlevel\":0.8,\"crit\":0,\"critperlevel\":0,\"attackdamage\":56,\"attackdamageperlevel\":2,\"attackspeedperlevel\":2,\"attackspeed\":0.658},\"spells\":[{\"id\":\"ZeriQ\",\"name\":\"Rajada Reluzente\",\"description\":\"Rajada Reluzente dispara 7 projéteis que causam Dano de Ataque ao primeiro inimigo atingido. Esta Habilidade é considerada um Ataque.\",\"tooltip\":\"Zeri dispara uma rajada de {{ numberofmissiles }} projéteis que causa <physicalDamage>{{ activedamagethatcancrit }} de Dano Físico</physicalDamage> ao primeiro inimigo atingido. Esta Habilidade é considerada um Ataque. {{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Dano\",\"Multiplicador de DdA total\"],\"effect\":[\"{{ basedamage }} -> {{ basedamageNL }}\",\"{{ activeadratio*100.000000 }}% -> {{ activeadrationl*100.000000 }}%\"]},\"maxrank\":5,\"cooldown\":[0,0,0,0,0],\"cooldownBurn\":\"0\",\"cost\":[0,0,0,0,0],\"costBurn\":\"0\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\"Sem custo\",\"maxammo\":\"-1\",\"range\":[700,700,700,700,700],\"rangeBurn\":\"700\",\"image\":{\"full\":\"ZeriQ.png\",\"sprite\":\"spell16.png\",\"group\":\"spell\",\"x\":288,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"Sem custo\"},{\"id\":\"ZeriW\",\"name\":\"Laser de Ultrachoque\",\"description\":\"Zeri dispara um pulso elétrico que causa dano e Lentidão ao primeiro inimigo atingido. Se o pulso atingir uma parede, ele se transforma em um laser de longo alcance.\",\"tooltip\":\"Zeri dispara um pulso elétrico que causa <physicalDamage>{{ totaldamage }} de Dano Físico</physicalDamage> e {{ slowpercent*100 }}% de <status>Lentidão</status> ao primeiro inimigo atingido por {{ slowduration }}s.<br /><br />Se o pulso atingir um terreno, ele se expande em um laser que aplica os efeitos em uma área e causa Acerto Crítico a Campeões e monstros.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Dano\",\"Redução de velocidade\",\"Custo de @AbilityResourceName@\",\"Tempo de Recarga\"],\"effect\":[\"{{ damage }} -> {{ damageNL }}\",\"{{ slowpercent*100.000000 }}% -> {{ slowpercentnl*100.000000 }}%\",\"{{ cost }} -> {{ costNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":5,\"cooldown\":[12,11,10,9,8],\"cooldownBurn\":\"12/11/10/9/8\",\"cost\":[50,60,70,80,90],\"costBurn\":\"50/60/70/80/90\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" de {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1150,1150,1150,1150,1150],\"rangeBurn\":\"1150\",\"image\":{\"full\":\"ZeriW.png\",\"sprite\":\"spell16.png\",\"group\":\"spell\",\"x\":336,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} de {{ abilityresourcename }}\"},{\"id\":\"ZeriE\",\"name\":\"Faísca Acelerada\",\"description\":\"Zeri avança por uma curta distância e energiza os próximos 3 disparos de Rajada Reluzente, fazendo com que atravessem os inimigos. Ela pode saltar e deslizar por qualquer terreno que tocar.\",\"tooltip\":\"Zeri avança por uma pequena distância e salta sobre qualquer terreno que tocar, aumentando bastante o alcance do avanço. Pelos próximos {{ buffduration }}s, os disparos de <spellName>Rajada Reluzente</spellName> atravessarão os alvos, causando {{ pendamagepercent*100 }}% de dano a inimigos depois do primeiro e <magicDamage>{{ bonusdamagetotal }} de Dano Mágico</magicDamage> ao contato ao primeiro alvo atingido. <br /><br />Atingir um Campeão inimigo com um Ataque ou Habilidade reduz o Tempo de Recarga de Faísca Acelerada em {{ cdreductionperhit }}s. Acertos Críticos reduzem o Tempo de Recarga em {{ critcdreductionperhit }}s.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Dano percentual\",\"Dano base\",\"Tempo de Recarga\",\"Custo de @AbilityResourceName@\"],\"effect\":[\"{{ pendamagepercent*100.000000 }}% -> {{ pendamagepercentnl*100.000000 }}%\",\"{{ bonusdamagebase }} -> {{ bonusdamagebaseNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[22,21,20,19,18],\"cooldownBurn\":\"22/21/20/19/18\",\"cost\":[90,85,80,75,70],\"costBurn\":\"90/85/80/75/70\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" de {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[25000,25000,25000,25000,25000],\"rangeBurn\":\"25000\",\"image\":{\"full\":\"ZeriE.png\",\"sprite\":\"spell16.png\",\"group\":\"spell\",\"x\":384,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} de {{ abilityresourcename }}\"},{\"id\":\"ZeriR\",\"name\":\"Impacto Eletrizante\",\"description\":\"Zeri descarrega uma grande explosão elétrica e se sobrecarrega, recebendo dano aumentado e Velocidade de Movimento cumulativa que se redefine e aumenta sempre que atinge um Campeão inimigo. Durante esse período, Rajada Reluzente se transforma em um disparo triplo mais rápido que faz ricochetear relâmpagos entre os inimigos.\",\"tooltip\":\"Zeri descarrega uma grande explosão elétrica, causando <magicDamage>{{ totalactivedamage }} de Dano Mágico</magicDamage> a inimigos próximos. Se atingir um Campeão inimigo, Zeri recebe <attackSpeed>{{ baseaspercent*100 }}% de Velocidade de Ataque</attackSpeed> e <speed>{{ basebonusms*100 }}% de Velocidade de Movimento</speed> por {{ rduration }}s. Atingir um Campeão inimigo com um Ataque ou Habilidade aumenta a duração da Habilidade e concede um acúmulo de Sobrecarga por {{ maxhyperchargeduration }}s. Acertos Críticos concedem 2 acúmulos adicionais. Cada acúmulo concede <speed>{{ mspercent*100 }}% de Velocidade de Movimento</speed>.<br /><br />Durante esse período, <spellName>Rajada Reluzente</spellName> se transformará em um disparo triplo mais rápido que causa <physicalDamage>{{ chainphysicaldamage }} de Dano Físico</physicalDamage> a inimigos próximos.<br /><br />{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Dano\",\"Tempo de Recarga\"],\"effect\":[\"{{ activedamage }} -> {{ activedamageNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":3,\"cooldown\":[80,75,70],\"cooldownBurn\":\"80/75/70\",\"cost\":[100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" de {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[800,800,800],\"rangeBurn\":\"800\",\"image\":{\"full\":\"ZeriR.png\",\"sprite\":\"spell16.png\",\"group\":\"spell\",\"x\":432,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} de {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"Bateria Viva\",\"description\":\"Os Ataques de Zeri causam Dano Mágico e são considerados Habilidades. Mover-se e conjurar Rajada Reluzente armazena energia na Eletrobolsa. Quando estiver totalmente carregada, o próximo Ataque da Campeã causará dano adicional.\",\"image\":{\"full\":\"ZeriP.png\",\"sprite\":\"passive5.png\",\"group\":\"passive\",\"x\":96,\"y\":48,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "Uma jovem obstinada e vivaz da classe operária de Zaun, Zeri canaliza magia elétrica para carregar a si mesma e a uma arma personalizada. O poder volátil espelha o que ela sente, as centelhas refletindo o estilo de vida ultrarrápido dela. Profundamente...",
+    "lore": "Uma jovem obstinada e vivaz da classe operária de Zaun, Zeri canaliza magia elétrica para carregar a si mesma e a uma arma personalizada. O poder volátil espelha o que ela sente, as centelhas refletindo o estilo de vida ultrarrápido dela. Profundamente compassiva para com os outros, Zeri leva o amor da família e do lar dela consigo a todas as lutas. Embora as tentativas de ajudar saiam pela culatra às vezes, Zeri acredita piamente em uma verdade: lute pela sua comunidade, e ela lutará com você.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Zeri.png",
+    "champion_name": "Zeri",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_0.jpg",
+    "champion_title": "A Faísca de Zaun",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Marksman"
+    ],
+    "links": [
+        {
+            "href": "https://br.op.gg/champion/zeri/statistics/top/build#",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/zeri/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://probuildstats.com/champion/zeri",
+            "title": "Probuild Stats"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_0.jpg"
+        },
+        {
+            "name": "Zeri Rosa Definhada",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_1.jpg"
+        },
+        {
+            "name": "Zeri Canção do Oceano",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_10.jpg"
+        },
+        {
+            "name": "Zeri Jornada Imortal",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_19.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Os Ataques de Zeri causam Dano Mágico e são considerados Habilidades. Mover-se e conjurar Rajada Reluzente armazena energia na Eletrobolsa. Quando estiver totalmente carregada, o próximo Ataque da Campeã causará dano adicional.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/14.8.1/img/passive/ZeriP.png",
+        "champion_passive_name": "Bateria Viva",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0221/ability_0221_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0221/ability_0221_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0221/ability_0221_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Rajada Reluzente dispara 7 projéteis que causam Dano de Ataque ao primeiro inimigo atingido. Esta Habilidade é considerada um Ataque.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/14.8.1/img/spell/ZeriQ.png",
+        "champion_q_name": "Rajada Reluzente",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0221/ability_0221_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0221/ability_0221_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0221/ability_0221_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Zeri dispara um pulso elétrico que causa dano e Lentidão ao primeiro inimigo atingido. Se o pulso atingir uma parede, ele se transforma em um laser de longo alcance.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/14.8.1/img/spell/ZeriW.png",
+        "champion_w_name": "Laser de Ultrachoque",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0221/ability_0221_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0221/ability_0221_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0221/ability_0221_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Zeri avança por uma curta distância e energiza os próximos 3 disparos de Rajada Reluzente, fazendo com que atravessem os inimigos. Ela pode saltar e deslizar por qualquer terreno que tocar.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/14.8.1/img/spell/ZeriE.png",
+        "champion_e_name": "Faísca Acelerada",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0221/ability_0221_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0221/ability_0221_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0221/ability_0221_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Zeri descarrega uma grande explosão elétrica e se sobrecarrega, recebendo dano aumentado e Velocidade de Movimento cumulativa que se redefine e aumenta sempre que atinge um Campeão inimigo. Durante esse período, Rajada Reluzente se transforma em um disparo triplo mais rápido que faz ricochetear relâmpagos entre os inimigos.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/14.8.1/img/spell/ZeriR.png",
+        "champion_r_name": "Impacto Eletrizante",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0221/ability_0221_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0221/ability_0221_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0221/ability_0221_R1.webm"
+    },
+    "related_champions": []
+}

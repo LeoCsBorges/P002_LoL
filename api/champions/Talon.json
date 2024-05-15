@@ -1,0 +1,127 @@
+{
+    "publish_details": {
+        "locale": "pt-br"
+    },
+    "uid": "blted6b997ce04023b2",
+    "url": "/champions/talon/",
+    "data_dragon_id": "Talon",
+    "data_dragon_json": "{\"id\":\"Talon\",\"key\":\"91\",\"name\":\"Talon\",\"title\":\"a Sombra da Lâmina\",\"image\":{\"full\":\"Talon.png\",\"sprite\":\"champion4.png\",\"group\":\"champion\",\"x\":48,\"y\":48,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"91000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"91001\",\"num\":1,\"name\":\"Talon Renegado\",\"chromas\":false},{\"id\":\"91002\",\"num\":2,\"name\":\"Talon Elite Carmesim\",\"chromas\":false},{\"id\":\"91003\",\"num\":3,\"name\":\"Talon Lâminas Dracônicas\",\"chromas\":true},{\"id\":\"91004\",\"num\":4,\"name\":\"Talon SSW\",\"chromas\":false},{\"id\":\"91005\",\"num\":5,\"name\":\"Talon Lua Sangrenta\",\"chromas\":false},{\"id\":\"91012\",\"num\":12,\"name\":\"Talon Espada Resiliente\",\"chromas\":true},{\"id\":\"91020\",\"num\":20,\"name\":\"Talon Bosque Sombrio\",\"chromas\":true},{\"id\":\"91029\",\"num\":29,\"name\":\"Talon Rosa Definhada\",\"chromas\":true},{\"id\":\"91038\",\"num\":38,\"name\":\"Talon Velho Oeste\",\"chromas\":true},{\"id\":\"91039\",\"num\":39,\"name\":\"Talon Velho Oeste de Prestígio\",\"chromas\":false},{\"id\":\"91049\",\"num\":49,\"name\":\"Talon Emboscada Primordial\",\"chromas\":true}],\"lore\":\"Talon é a adaga na escuridão, um assassino impiedoso capaz de atacar sem aviso e escapar antes que qualquer alarme soe. Ele construiu uma reputação perigosa nas ruas brutais de Noxus, onde foi forçado a lutar, matar e roubar para sobreviver. Adotado pela notória família Du Couteau, ele agora usa suas habilidades mortais seguindo os comandos do império, assassinando líderes inimigos, capitães e heróis… além de qualquer noxiano tolo o suficiente para ganhar o desprezo de seus mestres.\",\"blurb\":\"Talon é a adaga na escuridão, um assassino impiedoso capaz de atacar sem aviso e escapar antes que qualquer alarme soe. Ele construiu uma reputação perigosa nas ruas brutais de Noxus, onde foi forçado a lutar, matar e roubar para sobreviver. Adotado...\",\"allytips\":[\"Você pode usar Caminho do Assassino para chegar às costas do inimigo e se posicionar para um ataque de Diplomacia Noxiana.\",\"Ataque das Sombras é uma ferramenta de fuga poderosa, mas também pode ser ofensivamente utilizada para atacar um grupo.\",\"Lembre de escolher seu alvo antes da batalha. Concentrar todas as habilidades de Talon em um único alvo pode ser bastante recompensador, mas dividí-las entre vários pode lhe deixar vulnerável.\"],\"enemytips\":[\"Todos os ataques de Talon causam Dano Físico. Compre Armadura para acabar com seu dano de rajada.\",\"Talon depende muito de Ataque das Sombras para escapar de uma luta. Depois de utilizada, ele fica significativamente mais vulnerável.\",\"Talon tem um poder de vaguear sem paralelos. Não deixe de saber onde ele está e puxe a rota agressivamente para forçá-lo a continuar lá.\"],\"tags\":[\"Assassin\"],\"partype\":\"Mana\",\"info\":{\"attack\":9,\"defense\":3,\"magic\":1,\"difficulty\":7},\"stats\":{\"hp\":658,\"hpperlevel\":109,\"mp\":400,\"mpperlevel\":37,\"movespeed\":335,\"armor\":30,\"armorperlevel\":4.7,\"spellblock\":39,\"spellblockperlevel\":2.05,\"attackrange\":125,\"hpregen\":8.5,\"hpregenperlevel\":0.75,\"mpregen\":7.6,\"mpregenperlevel\":0.8,\"crit\":0,\"critperlevel\":0,\"attackdamage\":68,\"attackdamageperlevel\":3.1,\"attackspeedperlevel\":2.9,\"attackspeed\":0.625},\"spells\":[{\"id\":\"TalonQ\",\"name\":\"Diplomacia Noxiana\",\"description\":\"Talon apunhala a unidade alvo. Caso eles estejam próximos o suficiente para um ataque corpo a corpo, o ataque causa dano crítico. Caso estejam fora do alcance corpo a corpo, Talon saltará no alvo e o apunhalará. Talon recupera um pouco da vida e do Tempo de Recarga caso sua habilidade abata o alvo.\",\"tooltip\":\"Talon salta em direção ao alvo e causa <physicalDamage>{{ leapdamage }} de Dano Físico</physicalDamage>. Se a Habilidade for usada em alcance corpo a corpo, ela causa Acerto Crítico de <physicalDamage>{{ criticaldamage }} de Dano Físico</physicalDamage>.<br /><br />Se a Habilidade abater o alvo, Talon restaura <healing>{{ totalhealing }} de Vida</healing> e tem {{ e5 }}% do Tempo de Recarga restituído.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Dano\",\"Tempo de Recarga\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ e6 }} -> {{ e6NL }}\"]},\"maxrank\":5,\"cooldown\":[8,7.5,7,6.5,6],\"cooldownBurn\":\"8/7.5/7/6.5/6\",\"cost\":[40,40,40,40,40],\"costBurn\":\"40\",\"datavalues\":{},\"effect\":[null,[65,85,105,125,145],[50,50,50,50,50],[17,17,17,17,17],[3,3,3,3,3],[50,50,50,50,50],[8,7.5,7,6.5,6],[0.8,0.8,0.8,0.8,0.8],[1.5,1.5,1.5,1.5,1.5],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"65/85/105/125/145\",\"50\",\"17\",\"3\",\"50\",\"8/7.5/7/6.5/6\",\"0.8\",\"1.5\",\"0\",\"0\"],\"vars\":[],\"costType\":\" de {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[575,575,575,575,575],\"rangeBurn\":\"575\",\"image\":{\"full\":\"TalonQ.png\",\"sprite\":\"spell13.png\",\"group\":\"spell\",\"x\":96,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} de {{ abilityresourcename }}\"},{\"id\":\"TalonW\",\"name\":\"Ancinho\",\"description\":\"Talon envia um voleio de adagas que retorna a ele, causando Dano Físico a cada vez que passar por um inimigo. As lâminas que retornarem causam dano adicional e reduzem a velocidade da unidade.\",\"tooltip\":\"Talon lança uma rajada de lâminas em uma direção, causando <physicalDamage>{{ totalinitialdamage }} de Dano Físico</physicalDamage>. Então, as lâminas voltam para ele, causando <physicalDamage>{{ totalreturndamage }} de Dano Físico</physicalDamage> e {{ movespeedslow*100 }}% de <status>Lentidão</status> por {{ slowduration }}s.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Custo de @AbilityResourceName@\",\"Dano inicial\",\"Dano no trajeto de volta\",\"Redução de velocidade\",\"Tempo de Recarga\"],\"effect\":[\"{{ cost }} -> {{ costNL }}\",\"{{ initialbasedamage }} -> {{ initialbasedamageNL }}\",\"{{ returnbasedamage }} -> {{ returnbasedamageNL }}\",\"{{ movespeedslow*100.000000 }}% -> {{ movespeedslownl*100.000000 }}%\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":5,\"cooldown\":[9,8.5,8,7.5,7],\"cooldownBurn\":\"9/8.5/8/7.5/7\",\"cost\":[50,55,60,65,70],\"costBurn\":\"50/55/60/65/70\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" de {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[650,650,650,650,650],\"rangeBurn\":\"650\",\"image\":{\"full\":\"TalonW.png\",\"sprite\":\"spell13.png\",\"group\":\"spell\",\"x\":144,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} de {{ abilityresourcename }}\"},{\"id\":\"TalonE\",\"name\":\"Caminho do Assassino\",\"description\":\"Talon salta sobre quaisquer terrenos ou estruturas, até uma distância máxima. Esta habilidade possui um Tempo de Recarga baixo, mas deixa o terreno inutilizável por um longo período de tempo.\",\"tooltip\":\"Talon salta sobre o terreno ou estrutura que estiver mais perto. Ele não pode avançar sobre a mesma seção de terreno por mais de uma vez a cada {{ wallcd }}s.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Tempo de Recarga do terreno\"],\"effect\":[\"{{ e6 }} -> {{ e6NL }}\"]},\"maxrank\":5,\"cooldown\":[0,0,0,0,0],\"cooldownBurn\":\"0\",\"cost\":[0,0,0,0,0],\"costBurn\":\"0\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[625,625,625,625,625],[1250,1250,1250,1250,1250],[2,2,2,2,2],[160,135,110,85,60],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"625\",\"1250\",\"2\",\"160/135/110/85/60\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\"Sem custo\",\"maxammo\":\"-1\",\"range\":[725,725,725,725,725],\"rangeBurn\":\"725\",\"image\":{\"full\":\"TalonE.png\",\"sprite\":\"spell13.png\",\"group\":\"spell\",\"x\":192,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"Sem custo\"},{\"id\":\"TalonR\",\"name\":\"Ataque das Sombras\",\"description\":\"Talon dispara um anel de lâminas e fica Invisível ao mesmo tempo em que recebe Velocidade de Movimento adicional. Quando Talon surge da Invisibilidade, as lâminas convergem em sua direção. A cada vez que a lâmina se move, Ataque das Sombras causa Dano Físico aos inimigos atingidos por ao menos uma lâmina.\",\"tooltip\":\"Talon dispara um anel de lâminas que causa <physicalDamage>{{ damage }} de Dano Físico</physicalDamage>, recebe <speed>{{ movespeed*100 }}% de Velocidade de Movimento</speed> e fica <keywordStealth>Invisível</keywordStealth> por {{ duration }}s. Quando a <keywordStealth>Invisibilidade</keywordStealth> acaba, as lâminas retornam para Talon, causando <physicalDamage>{{ damage }} de Dano Físico</physicalDamage> novamente.<br /><br />Se ele cancelar a <keywordStealth>Invisibilidade</keywordStealth> com um Ataque ou com <spellName>Diplomacia Noxiana</spellName>, as lâminas retornam para o alvo.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Dano\",\"Velocidade de Movimento\",\"Tempo de Recarga\"],\"effect\":[\"{{ basedamage }} -> {{ basedamageNL }}\",\"{{ movespeed*100.000000 }}% -> {{ movespeednl*100.000000 }}%\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":3,\"cooldown\":[100,80,60],\"cooldownBurn\":\"100/80/60\",\"cost\":[100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" de {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[550,550,550],\"rangeBurn\":\"550\",\"image\":{\"full\":\"TalonR.png\",\"sprite\":\"spell13.png\",\"group\":\"spell\",\"x\":240,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} de {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"Limiar da Lâmina\",\"description\":\"As habilidades de Talon causam Ferimentos em Campeões e monstros grandes, acumulando até 3 vezes. Quando Talon ataca um Campeão com 3 acúmulos de Ferimento, o alvo sofre intenso dano de sangramento ao longo do tempo.\",\"image\":{\"full\":\"TalonP.png\",\"sprite\":\"passive4.png\",\"group\":\"passive\",\"x\":48,\"y\":48,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "Talon é a adaga na escuridão, um assassino impiedoso capaz de atacar sem aviso e escapar antes que qualquer alarme soe. Ele construiu uma reputação perigosa nas ruas brutais de Noxus, onde foi forçado a lutar, matar e roubar para sobreviver. Adotado...",
+    "lore": "Talon é a adaga na escuridão, um assassino impiedoso capaz de atacar sem aviso e escapar antes que qualquer alarme soe. Ele construiu uma reputação perigosa nas ruas brutais de Noxus, onde foi forçado a lutar, matar e roubar para sobreviver. Adotado pela notória família Du Couteau, ele agora usa suas habilidades mortais seguindo os comandos do império, assassinando líderes inimigos, capitães e heróis… além de qualquer noxiano tolo o suficiente para ganhar o desprezo de seus mestres.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Talon.png",
+    "champion_name": "Talon",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_0.jpg",
+    "champion_title": "a Sombra da Lâmina",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Assassin"
+    ],
+    "links": [
+        {
+            "href": "https://www.leagueofgraphs.com/pt/champions/builds/talon",
+            "title": "LeagueofGraphs.com"
+        },
+        {
+            "href": "https://br.op.gg/champion/talon/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/talon",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_0.jpg"
+        },
+        {
+            "name": "Talon Renegado",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_1.jpg"
+        },
+        {
+            "name": "Talon Elite Carmesim",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_2.jpg"
+        },
+        {
+            "name": "Talon Lâminas Dracônicas",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_3.jpg"
+        },
+        {
+            "name": "Talon SSW",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_4.jpg"
+        },
+        {
+            "name": "Talon Lua Sangrenta",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_5.jpg"
+        },
+        {
+            "name": "Talon Espada Resiliente",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_12.jpg"
+        },
+        {
+            "name": "Talon Bosque Sombrio",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_20.jpg"
+        },
+        {
+            "name": "Talon Rosa Definhada",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_29.jpg"
+        },
+        {
+            "name": "Talon Velho Oeste",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_38.jpg"
+        },
+        {
+            "name": "Talon Velho Oeste de Prestígio",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_39.jpg"
+        },
+        {
+            "name": "Talon Emboscada Primordial",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_49.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "As habilidades de Talon causam Ferimentos em Campeões e monstros grandes, acumulando até 3 vezes. Quando Talon ataca um Campeão com 3 acúmulos de Ferimento, o alvo sofre intenso dano de sangramento ao longo do tempo.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/14.8.1/img/passive/TalonP.png",
+        "champion_passive_name": "Limiar da Lâmina",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0091/ability_0091_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0091/ability_0091_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0091/ability_0091_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Talon apunhala a unidade alvo. Caso eles estejam próximos o suficiente para um ataque corpo a corpo, o ataque causa dano crítico. Caso estejam fora do alcance corpo a corpo, Talon saltará no alvo e o apunhalará. Talon recupera um pouco da vida e do Tempo de Recarga caso sua habilidade abata o alvo.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/14.8.1/img/spell/TalonQ.png",
+        "champion_q_name": "Diplomacia Noxiana",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0091/ability_0091_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0091/ability_0091_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0091/ability_0091_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Talon envia um voleio de adagas que retorna a ele, causando Dano Físico a cada vez que passar por um inimigo. As lâminas que retornarem causam dano adicional e reduzem a velocidade da unidade.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/14.8.1/img/spell/TalonW.png",
+        "champion_w_name": "Ancinho",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0091/ability_0091_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0091/ability_0091_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0091/ability_0091_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Talon salta sobre quaisquer terrenos ou estruturas, até uma distância máxima. Esta habilidade possui um Tempo de Recarga baixo, mas deixa o terreno inutilizável por um longo período de tempo.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/14.8.1/img/spell/TalonE.png",
+        "champion_e_name": "Caminho do Assassino",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0091/ability_0091_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0091/ability_0091_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0091/ability_0091_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Talon dispara um anel de lâminas e fica Invisível ao mesmo tempo em que recebe Velocidade de Movimento adicional. Quando Talon surge da Invisibilidade, as lâminas convergem em sua direção. A cada vez que a lâmina se move, Ataque das Sombras causa Dano Físico aos inimigos atingidos por ao menos uma lâmina.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/14.8.1/img/spell/TalonR.png",
+        "champion_r_name": "Ataque das Sombras",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0091/ability_0091_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0091/ability_0091_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0091/ability_0091_R1.webm"
+    },
+    "related_champions": []
+}
